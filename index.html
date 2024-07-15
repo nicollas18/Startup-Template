@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="menuDesktop">
+        <a href="#" class="logo">LOGO</a>
+        <button href="#" class="toggle" onclick="menuDisplay()"><i class="fa-solid fa-bars"></i></button>
+        <a href="#contact" class="linkDesktop"><i class="fa-solid fa-envelope"></i>CONTACT</a>
+        <a href="#pricing" class="linkDesktop"><i class="fa-solid fa-dollar-sign"></i>PRICING</a>
+        <a href="#works" class="linkDesktop"><i class="fa-brands fa-slack"></i>WORK</a>
+        <a href="#team" class="linkDesktop"><i class="fa-solid fa-user"></i>TEAM</a>
+        <a href="#about" class="linkDesktop">ABOUT</a>
+    </div>
+
+    <div id="menuMobile" class="menuMobile">
+        <button href="#" onclick="menuDisplay()">CLOSE <i class="fa-solid fa-xmark"></i></button>
+        <a href="#about" onclick="menuDisplay()">ABOUT</a>
+        <a href="#team" onclick="menuDisplay()" ><i class="fa-solid fa-user"></i>TEAM</a>
+        <a href="#works" onclick="menuDisplay()"><i class="fa-brands fa-slack"></i>WORK</a>
+        <a href="#pricing" onclick="menuDisplay()"><i class="fa-solid fa-dollar-sign"></i>PRICING</a>
+        <a href="#contact" onclick="menuDisplay()"><i class="fa-solid fa-envelope"></i>CONTACT</a>
+    </div>
+
+    <main>
+        <div id="home" class="home">
+            <h1>Start something that matters</h1>
+            <p>Stop wasting valuable time with projects that just isn't you.</p>
+            <button>Learn more and start today</button>
+            <div class="homeLinks">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-snapchat"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <h2>ABOUT THE COMPANY</h2>
+            <p>Key features of our company</p>
+            <div class="about-flex">
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h3>Responsive</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-heart"></i>
+                    <h3>Responsive</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-gem"></i>
+                    <h3>Responsive</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-gear"></i>
+                    <h3>Responsive</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="linkWorks">
+            <div class="linkWorksText">
+                <h3>We know design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore.</p>
+                <a href="#"><i class="fa-brands fa-slack"></i> View Our Works</a>
+            </div>
+            <div class="linkWorksImage">
+                <img src="images/phone_buildings.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="team" class="team">
+            <h2>THE TEAM</h2>
+            <p>The ones who runs this company</p>
+            <div class="team-flex">
+                <div>
+                    <img src="images/team2.jpg" alt="Jhon Doe">
+                    <h3>Jhon Doe</h3>
+                    <p>CEO & Founder</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <a href="#"><i class="fa-solid fa-envelope"></i> Contact</a>
+                </div>
+                <div>
+                    <img src="images/team1.jpg" alt="Jhon Doe">
+                    <h3>Anja Doe</h3>
+                    <p>Art Director</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <a href="#"><i class="fa-solid fa-envelope"></i> Contact</a>
+                </div>
+                <div>
+                    <img src="images/team3.jpg" alt="Jhon Doe">
+                    <h3>Mike Ross</h3>
+                    <p>Web Designer</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <a href="#"><i class="fa-solid fa-envelope"></i> Contact</a>
+                </div>
+                <div>
+                    <img src="images/team4.jpg" alt="Jhon Doe">
+                    <h3>Dan Star</h3>
+                    <p>Designer</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <a href="#"><i class="fa-solid fa-envelope"></i> Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="notas">
+            <div>
+                <h2>14+</h2>
+                <p>Partners</p>
+            </div>
+            <div>
+                <h2>55+</h2>
+                <p>Projects Done</p>
+            </div>
+            <div>
+                <h2>89+</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div>
+                <h2>150+</h2>
+                <p>Meetings</p>
+            </div>
+        </div>
+
+        <div id="works" class="works">
+            <div>
+                <img src="images/tech_camera.jpg" alt="">
+            </div>
+            <div><img src="images/tech_drone.jpg" alt=""></div>
+            <div><img src="images/tech_mic.jpg" alt=""></div>
+            <div><img src="images/tech_phone.jpg" alt=""></div>
+            <div><img src="images/tech_sound.jpg" alt=""></div>
+            <div><img src="images/tech_tablet.jpg" alt=""></div>
+            <div><img src="images/tech_tableturner.jpg" alt=""></div>
+            <div><img src="images/tech_typewriter.jpg" alt=""></div>
+        </div>
+
+        <div class="skills">
+            <div class="skillsText">
+                <h3>Our Skills</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="skillsProgress">
+                <div>
+                    <h3><i class="fa-solid fa-camera"></i> Photograpy</h3>
+                    <div>
+                        <div>90%</div>
+                    </div>
+                </div>
+                <div>
+                    <h3><i class="fa-solid fa-desktop"></i> Web Design</h3>
+                    <div >
+                        <div class="progress-85">85%</div>
+                    </div>
+                </div>
+                <div>
+                    <h3><i class="fa-solid fa-image"></i> Photoshop</h3>
+                    <div>
+                        <div class="progress-75">75%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pricing" class="princing">
+            <h2>PRICING</h2>
+            <p>Choose a pricing plan that fits your needs.</p>
+            <div class="princing-flex">
+                <div class="card">
+                    <h3>Basic</h3>
+                    <p><b>10GB</b> Storage</p>
+                    <p><b>10</b> Emails</p>
+                    <p><b>10</b> Domains</p>
+                    <p><b>Endless</b> Suport</p>
+                    <div>
+                        <h3>$ 10</h3>
+                        <p>per month</p>
+                    </div>
+                    <div>
+                        <button>Sing Up</button>
+                    </div>
+                </div>
+
+                <div class="card card-red">
+                    <h3>Basic</h3>
+                    <p><b>10GB</b> Storage</p>
+                    <p><b>10</b> Emails</p>
+                    <p><b>10</b> Domains</p>
+                    <p><b>Endless</b> Suport</p>
+                    <div>
+                        <h3>$ 10</h3>
+                        <p>per month</p>
+                    </div>
+                    <div>
+                        <button>Sing Up</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Basic</h3>
+                    <p><b>10GB</b> Storage</p>
+                    <p><b>10</b> Emails</p>
+                    <p><b>10</b> Domains</p>
+                    <p><b>Endless</b> Suport</p>
+                    <div>
+                        <h3>$ 10</h3>
+                        <p>per month</p>
+                    </div>
+                    <div>
+                        <button>Sing Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <h2>CONTACT</h2>
+            <p>Lets get intouch. Send us a message:</p>
+            <div>
+                <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+                <p><i class="fa-solid fa-phone"></i> +00 151515</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+            </div>
+            <form action="">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="text" name="assunto" id="assunto" placeholder="Subject">
+                <input type="text" name="message" id="message" placeholder="Message">
+            </form>
+            <button><i class="fa-solid fa-paper-plane"></i> SEND MESSAGE</button>
+            <div class="img">
+                <img src="images/map (1).jpg" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i> To the top</a>
+        <div class="footerLinks">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
